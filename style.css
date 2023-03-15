@@ -24,13 +24,16 @@ main{
 
 
 #titulo-vamos-merendar h2{
+    font-size: 1em;
     text-align: center;
     color: #FF1654;
     font-weight: 900;
+    margin-bottom: 5px;
 }
 
 #titulo-vamos-merendar p{
     text-align: center;
+    font-size: 0.70em;
 }
 
 #menu{
@@ -51,7 +54,6 @@ main{
 }
 
 #titulo-vamos-merendar{
-    font-size: 9px;
     position: relative;
     left: 30px;
 }
@@ -90,6 +92,7 @@ main{
     margin: 0px 10px;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
 }
 
 
@@ -103,4 +106,13 @@ main{
 .cards p{
     margin-top: 5px;
     font-size: 10px;
+}
+
+#objetivos-aplicativo{
+
+}
+
+#objetivos-aplicativo h2{
+    text-align: center;
+    color: #FF1654;
 }
