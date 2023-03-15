@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 20px; 
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+#menu{
+    color: #FF1654;
+    font-size: 20px;
+}
+
+
+#vamos-merendar{
+    width: 90vw;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-vamos-merendar{
+    font-size: 9px;
+}
+
+#celular-titulo{
+    z-index: 1;
+    position: relative;
+    left: 100px;
+}
+
+#quadrado-fundo-titulo{
+    position: relative;
+    bottom: 15px;
+    left: 20px;
+    z-index: 0;
+    width: 1200px;
+    height: 200px;
+    background-color: #FF1654;
+    border-radius: 10px;
+    transform: rotate(135deg);
+    
+}
