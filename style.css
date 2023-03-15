@@ -17,7 +17,12 @@ header{
     padding: 0 15px 0 15px;
 }
 
-#titulo-leia h1{
+h2{
+    text-align: center;
+    color: #FF1654;
+}
+
+p{
     text-align: center;
 }
 
@@ -59,5 +64,4 @@ header{
     background-color: #FF1654;
     border-radius: 10px;
     transform: rotate(135deg);
-    
 }
