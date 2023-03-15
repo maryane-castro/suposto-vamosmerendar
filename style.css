@@ -17,12 +17,15 @@ header{
     padding: 0 15px 0 15px;
 }
 
-h2{
+
+
+
+#titulo-vamos-merendar h2{
     text-align: center;
     color: #FF1654;
 }
 
-p{
+#titulo-vamos-merendar p{
     text-align: center;
 }
 
