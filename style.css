@@ -50,8 +50,11 @@ main{
 }
 
 #menu{
-    color: #FF1654;
-    font-size: 20px;
+    display: flex;
+    background-color: #FF1654;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 5px;
 }
 
 
@@ -92,7 +95,7 @@ main{
 }
 
 #card{
-    margin: 20vh 0 40px 0 ;
+    margin: 25vh 0 40px 0 ;
     width: 100vw;
     height: 30vh;
     display: flex;
