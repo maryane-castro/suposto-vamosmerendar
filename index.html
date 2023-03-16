@@ -10,6 +10,9 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
 
 
 </head>
@@ -33,12 +36,12 @@
 
 
 
-        <div id="card">
+        <div id="card" data-aos="fade-down">
             <div class="cards" id="card1">
                 <h2>Fácil de Usar</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="cards" id="card2">
+            <div class="cards" id="card2" >
                 <h2>Performático</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
@@ -48,44 +51,44 @@
             </div>
         </div>
 
-        <h2 id="titulo-objetivos">A ideia</h2>
+        <h2 id="titulo-objetivos" data-aos="fade-up">A ideia</h2>
         <div id="objetivos-aplicativo">
             
-            <div class="objetivos" id="logo-app">
+            <div class="objetivos" id="logo-app" data-aos="zoom-in">
 
             </div>
-            <div class="objetivos" id="objetivos-texto">
+            <div class="objetivos" id="objetivos-texto" data-aos="zoom-in">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             </div>  
         </div>
 
 
-        <h2 id="titulo-funcionamento">Planos</h2>
-        <div id="quadrados-funcionamento">
-            <div class="quadrados" id="quadrado1">
+        <h2 id="titulo-funcionamento" data-aos="fade-down">Planos</h2>
+        <div id="quadrados-funcionamento" >
+            <div class="quadrados" id="quadrado1" data-aos="fade-right">
                 <h2>1</h2>
                 <p>Lorem</p>
             </div>
-            <div class="quadrados" id="quadrado2">
+            <div class="quadrados" id="quadrado2" data-aos="fade-left">
                 <h2>2</h2>
                 <p>Lorem</p>
             </div>
-            <div class="quadrados" id="quadrado3">
+            <div class="quadrados" id="quadrado3" data-aos="fade-right">
                 <h2>3</h2>
                 <p>Lorem</p>
             </div>
         </div>
 
 
-        <h2 id="titulo-sobre">Modulos Disponiveis</h2>
+        <h2 id="titulo-sobre" data-aos="fade-down">Modulos Disponiveis</h2>
         <div id="sobre-mao-celular">
-            <div class="sobres" id="quadrado-sobre">
+            <div class="sobres" id="quadrado-sobre" data-aos="fade-right">
 
             </div>
-            <div class="sobres" id="text-sobre">
+            <div class="sobres" id="text-sobre" data-aos="fade-right">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
-            <div class="sobres" id="app-mao">
+            <div class="sobres" id="app-mao" data-aos="fade-left">
                 <img src="img/copy-mao.png" alt="" width="150px">
             </div>
         </div>
@@ -98,5 +101,11 @@
         </footer>
 
     </main>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
