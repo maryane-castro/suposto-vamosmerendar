@@ -45,9 +45,11 @@ main{
 #vamos-merendar{
     overflow: hidden;
     width: 100vw;
+    height: 50vh;
     padding: 40px 0px 50px 0px;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     top: 10vh;
     
