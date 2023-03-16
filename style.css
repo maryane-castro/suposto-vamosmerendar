@@ -154,7 +154,6 @@ main{
 }
 
 .quadrados{
-    display: flex;
     margin-top: 10px;
     width: 150px;
     height: 56px;
@@ -163,7 +162,59 @@ main{
 }
 
 
-.quadrados{
+.quadrados > h2, p{
+    text-align: center;
+}
 
-    
+.quadrados h2{
+    font-size: 0.90em;
+    color: #FF1654;
+}
+
+.quadrados p{
+    font-size: 0.80em;
+}
+
+#titulo-sobre{
+    text-align: center;
+    color: #FF1654;
+    margin: 40px;
+}
+
+
+#sobre-mao-celular{
+    display: flex;
+    justify-content: center;
+}
+
+#quadrado-sobre{
+    background-color: #D21144;
+    width: 900px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 15px;
+    transform: rotate(150deg);
+    position: relative;
+    right: 0px;
+    bottom:20px;
+}
+
+
+#text-sobre{
+    z-index: 1;
+    font-size: 0.80em;
+    position: relative;
+    right: 110px;
+    top: 16px;
+    color: white;
+}
+
+
+#text-sobre p{
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+#app-mao{
+    margin-right: 6px;
 }
