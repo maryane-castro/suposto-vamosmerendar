@@ -3,9 +3,11 @@
     padding: 0;
 }
 
-body{
+html,body{
     width: 100vw;
     height: 100vh;
+    padding: 0;
+    margin: 0;
     
 }
 
@@ -15,10 +17,11 @@ header{
     justify-content: space-between;
     margin-top: 30px;
     padding: 0 15px 0 15px;
+    
 }
 
 main{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -220,7 +223,7 @@ main{
 #text-sobre p{
     position: relative;
     top: 85px;
-    right: inherit;
+    right: 105px;
     margin-left: 5px;
     font-size: 1.1em;
     font-weight: 500;
@@ -239,4 +242,5 @@ footer{
     padding: 15px;
     color: white;
     font-size: 0.9em;
+    overflow: hidden;
 }
