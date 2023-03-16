@@ -223,7 +223,7 @@ main{
 #text-sobre p{
     position: relative;
     top: 85px;
-    right: 105px;
+    left: -102px;
     margin-left: 5px;
     font-size: 1.1em;
     font-weight: 500;
