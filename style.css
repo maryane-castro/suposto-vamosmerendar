@@ -77,6 +77,7 @@ main{
 }
 
 #card{
+    margin: 40vh 0 40px 0 ;
     width: 100vw;
     height: 30vh;
     display: flex;
@@ -112,6 +113,7 @@ main{
 #titulo-objetivos{
     text-align: center;
     color: #FF1654;
+    margin: 30vh 0 40px 0 ;
 }
 
 #objetivos-aplicativo{
@@ -142,7 +144,7 @@ main{
 #titulo-funcionamento{
     color: #FF1654;
     text-align: center;
-    margin-top: 40px;
+    margin: 30vh 0 40px 0 ;
 }
 
 #quadrados-funcionamento{
@@ -178,43 +180,61 @@ main{
 #titulo-sobre{
     text-align: center;
     color: #FF1654;
-    margin: 40px;
+    margin: 30vh 0 40px 0 ;
 }
 
 
 #sobre-mao-celular{
     display: flex;
+    width: 100vw;
+    height: 60vh;
     justify-content: center;
 }
 
 #quadrado-sobre{
     background-color: #D21144;
-    width: 900px;
+    width: 2000px;
     height: 200px;
     z-index: 0;
     border-radius: 15px;
     transform: rotate(150deg);
     position: relative;
     right: 0px;
-    bottom:20px;
+    top: 10px;
 }
 
 
 #text-sobre{
     z-index: 1;
+    width: 0;
     font-size: 0.80em;
     position: relative;
     right: 110px;
-    top: 16px;
+    bottom: 20px;
     color: white;
 }
 
 
 #text-sobre p{
+    position: relative;
+    top: 85px;
+    right: inherit;
+    margin-left: 5px;
     font-size: 1.1em;
     font-weight: 500;
+    width: 200px;
 }
 
 #app-mao{
+    z-index: 1;
     margin-right: 6px;
+}
+
+footer{
+    background-color: #D21144;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0;
+    padding: 15px;
+    color: white;
+    font-size: 0.9em;
 }
