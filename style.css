@@ -27,7 +27,7 @@ main{
 
 
 #titulo-vamos-merendar h2{
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
     color: #FF1654;
     font-weight: 900;
@@ -82,7 +82,7 @@ main{
 }
 
 #card{
-    margin: 40vh 0 40px 0 ;
+    margin: 10vh 0 40px 0 ;
     width: 100vw;
     height: 30vh;
     display: flex;
