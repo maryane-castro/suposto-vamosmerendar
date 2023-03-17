@@ -482,7 +482,8 @@ footer{
         width: auto;
         font-size: 1.3em;
         position: relative;
-        left: 50%;
+        left: 47%;
+        top: 1%;
         transform: translate(-50%);
         color: white;
     }
