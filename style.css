@@ -451,7 +451,7 @@ footer{
         font-size: 3em;
         text-align: center;
         color: #FF1654;
-        margin: 30vh 0 40px 0 ;
+        margin: 30vh 0 10vh 0 ;
     }
 
 
@@ -459,46 +459,54 @@ footer{
         display: flex;
         width: 100vw;
         height: 60vh;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     #quadrado-sobre{
         background-color: #FF1654;
-        width: 200px;
-        height: 20px;
+        width: 500px;
+        height: 400px;
         z-index: 0;
         border-radius: 15px;
         transform: rotate(150deg);
-        position: relative;
-        right: 0px;
-        top: 2%;
+        position: absolute;
+        top: auto;
+        right: 32%;
     }
 
 
     #text-sobre{
+        display: flex;
+        justify-content: center;
         z-index: 1;
-        width: 0;
-        font-size: 0.80em;
+        width: auto;
+        font-size: 1.3em;
         position: relative;
-        right: 110px;
-        bottom: 20px;
+        left: 50%;
+        transform: translate(-50%);
         color: white;
     }
 
 
-    #text-sobre p{
-        position: relative;
-        top: 85px;
-        left: -100px;
-        margin-left: 5px;
-        font-size: 1.1em;
-        font-weight: 500;
-        width: 200px;
-    }
-
     #app-mao{
         z-index: 1;
         margin-right: 6px;
+    }
+
+
+    footer{
+        background-color: #FF1654;
+        border-radius: 10px 10px 0px 0px;
+        margin: 0;
+        padding: 15px;
+        color: white;
+        font-size: 1.2em;
+        font-weight: 600;
+        overflow: hidden;
+    }
+
+    #img-mao{
+        width: 400px;
     }
 
 }
