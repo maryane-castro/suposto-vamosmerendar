@@ -224,14 +224,22 @@ header a:hover::after, a:hover{
     align-items: center;
     width: 30%;
     height: 40vh;
-
     margin-left: 15px;
     border-radius: 49% 51% 44% 56% / 31% 35% 65% 69% ;
     padding: 20px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+    box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
+        5px 25px 25px rgba(0, 0, 0, 0.233),
+        5px 20px 20px rgba(0, 0, 0, 0.151),
+        inset -20px -20px 25px rgba(255, 255, 255, .9);
+
+    transition: 0.5s ease-in-out;
 }
 
+
+.planos:hover{
+    border-radius: 50%;
+}
 
 .planos:first-child{
     margin-left: 0;
@@ -406,6 +414,12 @@ footer > .footer > *{
         margin: 20px 0 0 0;
         padding: 20px;
         overflow: hidden;
+        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
+        5px 25px 25px rgba(0, 0, 0, 0.233),
+        5px 20px 20px rgba(0, 0, 0, 0.151),
+        inset -20px -20px 25px rgba(255, 255, 255, .9);
+
+        transition: 0.5s ease-in-out;
     }
 }
 
@@ -438,7 +452,12 @@ footer > .footer > *{
         border-radius: 49% 51% 44% 56% / 30% 35% 65% 70% ;
         padding: 20px;
         overflow: hidden;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
+        5px 25px 25px rgba(0, 0, 0, 0.233),
+        5px 20px 20px rgba(0, 0, 0, 0.151),
+        inset -20px -20px 25px rgba(255, 255, 255, .9);
+
+        transition: 0.5s ease-in-out;
     }
 
 
@@ -462,7 +481,7 @@ footer > .footer > *{
 
 
 /*phone*/
-@media (max-width: 550px){
+@media (max-width: 560px){
     html{
         font-size: 50%;
     }
