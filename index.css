@@ -10,18 +10,90 @@
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 100%;
-    margin: 20px;
-
+    padding: 20px;
+    align-items: center;
 }
 
 header h1{
-    color: brown;
+    color: #000000;
 }
 
 
 header li{
     display: inline-block;
     list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+    cursor: pointer;
+}
+
+header a:hover{
+    text-decoration: none;
+    color: #505050;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#divisao{
+    margin: auto;
+    padding: 0;
+    max-width: 1600px;
+    min-height: 1px;
+    background-color: #c90036;
+}
+
+#tela-inicial{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(img/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#texto-inicial{
+    z-index: 1;
+    width: 50%;
+    
+}
+
+#texto-inicial h1{
+    font-size: 3em;
+    color: #FF1654;
+}
+
+#texto-inicial p{
+}
+
+#img-inicial img{
+    z-index: 0;
+    width: 100%;
+}
+
+
+
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    width: 20%;
+    background-color: #505050;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.cards > *{
+    text-align: center;
 }
