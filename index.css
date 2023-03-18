@@ -463,6 +463,9 @@ footer > .footer > *{
         width: 70%;
     }
 
+    #ideia > img{
+        width: 40%;
+    }
     
     footer > .footer{
         background-color: #FF1654;
@@ -485,6 +488,7 @@ footer > .footer > *{
         font-size: 1rem;
         margin: 3px;
     }
+
 
 
 }
