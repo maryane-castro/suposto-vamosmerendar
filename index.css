@@ -230,9 +230,9 @@ header a:hover::after, a:hover{
     border-radius: 49% 51% 44% 56% / 31% 35% 65% 69% ;
     padding: 20px;
     overflow: hidden;
-    box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
-        5px 25px 25px rgba(0, 0, 0, 0.233),
-        5px 20px 20px rgba(0, 0, 0, 0.151),
+    box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.075),
+        5px 25px 25px rgba(0, 0, 0, 0.048),
+        5px 20px 20px rgba(0, 0, 0, 0.11),
         inset -20px -20px 25px rgba(255, 255, 255, .9);
 
     transition: 0.5s ease-in-out;
@@ -416,9 +416,9 @@ footer > .footer > *{
         margin: 20px 0 0 0;
         padding: 20px;
         overflow: hidden;
-        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
-        5px 25px 25px rgba(0, 0, 0, 0.233),
-        5px 20px 20px rgba(0, 0, 0, 0.151),
+        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.075),
+        5px 25px 25px rgba(0, 0, 0, 0.048),
+        5px 20px 20px rgba(0, 0, 0, 0.11),
         inset -20px -20px 25px rgba(255, 255, 255, .9);
 
         transition: 0.5s ease-in-out;
@@ -454,9 +454,9 @@ footer > .footer > *{
         border-radius: 49% 51% 44% 56% / 30% 35% 65% 70% ;
         padding: 20px;
         overflow: hidden;
-        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
-        5px 25px 25px rgba(0, 0, 0, 0.233),
-        5px 20px 20px rgba(0, 0, 0, 0.151),
+        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.075),
+        5px 25px 25px rgba(0, 0, 0, 0.048),
+        5px 20px 20px rgba(0, 0, 0, 0.11),
         inset -20px -20px 25px rgba(255, 255, 255, .9);
 
         transition: 0.5s ease-in-out;
