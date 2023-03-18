@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -137,7 +138,7 @@ header a:hover{
 
 .cards-diferenciais{
     width: 20%;
-    background-color: #505050;
+    background-color: #D9D9D9;
     margin-bottom: 2%;
     border-radius: 10px;
     padding: 20px;
@@ -145,4 +146,58 @@ header a:hover{
 
 .cards-diferenciais > *{
     text-align: center;
+}
+
+.cards-diferenciais > h2{
+    color: #FF1654;
+}
+
+#plano{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+    width: 26%;
+    height: 30vh;
+    background-image: url(img/blur.png);
+    filter: blur(40%);
+    border: 1px solid black;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.planos:first-child{
+    margin-left: 0;
+}
+
+
+@media (max-width: 950px) {
+    #plano{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .planos{
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        height: 30vh;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 20px 0 0 0;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+
 }
