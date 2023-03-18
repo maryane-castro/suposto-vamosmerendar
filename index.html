@@ -7,6 +7,9 @@
     <title>Vamos Merendar</title>
 
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 <body>
     <header>
@@ -29,12 +32,12 @@
 
 
     <div id="divisao"></div>
-    <div id="tela-inicial">
-        <div id="texto-inicial">
+    <div id="tela-inicial" >
+        <div id="texto-inicial" class="animate__animated animate__fadeInLeft">
             <h1>VAMOS MERENDAR?</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat amet ut quibusdam eaque commodi fugit in vero consequatur perferendis. Itaque praesentium vitae nostrum non a placeat autem ex modi perspiciatis..</p>
         </div>
-        <div id="img-inicial">
+        <div id="img-inicial" class="animate__animated animate__fadeInRight">
             <div id="quadrado-inicial"></div>
             <img src="img/tela-inicial.png" alt="">
         </div>
@@ -58,11 +61,12 @@
         </div>
     </div>
 
-
-    <h1 class="titulos">A ideia</h1>
-    <div id="ideia">
-        <img src="img/logo-copy.png" alt="">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum repellat non libero nobis accusantium voluptatum porro ipsum, in atque, eius ipsam id ex, dolore aperiam cumque numquam quos a tempore?</p>
+    <div id="back-ideias">
+        <h1 class="titulos" id="titulo-ideia">A ideia</h1>
+        <div id="ideia">
+            <img src="img/logo-copy.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum repellat non libero nobis accusantium voluptatum porro ipsum, in atque, eius ipsam id ex, dolore aperiam cumque numquam quos a tempore?</p>
+        </div>
     </div>
 
 
@@ -126,7 +130,11 @@
         <p>Powered by LEIA  IFCE  Maranguape</p>
     </footer>
 
+
     <script src="js/menu.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 
 </body>
 </html>

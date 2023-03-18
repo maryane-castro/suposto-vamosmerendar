@@ -16,13 +16,14 @@ html{
 header{
     display: flex;
     justify-content: space-around;
-    max-width: 100%;
+    width: 100%;
+    height: 13vh;
     padding: 20px;
     align-items: center;
 }
 
 header h1{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: #FF1654;
 }
 
@@ -33,11 +34,12 @@ header li{
 }
 
 header a{
+    
     text-decoration: none;
     color: #000000;
     margin: 10px;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 2.8rem;
     transition: .5s;
 }
 
@@ -53,10 +55,10 @@ header a:hover{
 #divisao{
     margin: auto;
     padding: 0;
-    width: 92%;
-    max-width: 1000px;
-    min-height: 1px;
-    background-color: #c90036;
+    width: 100%;
+    max-width: 1950px;
+    min-height: 2px;
+    background-color: #FF1654;
 }
 
 #tela-inicial{
@@ -77,7 +79,7 @@ header a:hover{
 }
 
 #texto-inicial h1{
-    font-size: 4.5rem;
+    font-size: 6rem;
     color: #FF1654;
 }
 
@@ -88,7 +90,7 @@ header a:hover{
 
 #img-inicial img{
     z-index: 0;
-    width: 100%;
+    width: 120%;
 }
 
 /*titulos*/
@@ -99,12 +101,17 @@ header a:hover{
     font-size: 4.7rem;
 }
 
+#titulo-ideia{
+    color: white;
+    padding-top: 3%;
+    margin: 15% 0 0 0 ;
+}
+
 
 #card{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
 }
 
 
@@ -131,17 +138,28 @@ header a:hover{
 }
 
 
+#back-ideias{
+    width: 100%;
+    height: auto;
+    background-image: url(img/back-ideias.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
 
 #ideia{
     width: 100%;
+    height: 100%;
+    min-height: 60vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
 #ideia > p{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     width: 30%;
+    color: white;
 }
 
 
