@@ -34,28 +34,45 @@ header li{
 }
 
 header a{
-    
+    position: relative;
     text-decoration: none;
     color: #000000;
     margin: 10px;
     cursor: pointer;
-    font-size: 2.8rem;
+    font-size: 2rem;
     transition: .5s;
 }
 
-header a:hover{
-    text-decoration: none;
-    color: #FF1654;
-    text-decoration: underline;
-    margin: 10px;
-    cursor: pointer;
+
+
+header a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;   /*para deixar embaixo*/
+    width: 100%;
+    height: 3px;
+    background: #FF1654;
+    border-radius: 5px;
+    transform-origin: right;   /*(COMEÇA)em vez de se originar do centro a linha vai se originar da direita*/
+    transform: scaleX(0);  /*não aparece pq ta na escala X*/
+    transition: transform .5s;
+}
+
+
+header a:hover::after{
+    transform-origin: left; /*(TERMINA)*/
+    transform: scaleX(1);  /*aparece quando passa por cima*/
+
+
+
 }
 
 
 #divisao{
     margin: auto;
     padding: 0;
-    width: 100%;
+    width: 90%;
     max-width: 1950px;
     min-height: 2px;
     background-color: #FF1654;
@@ -79,18 +96,18 @@ header a:hover{
 }
 
 #texto-inicial h1{
-    font-size: 6rem;
+    font-size: 5.6rem;
     color: #FF1654;
 }
 
 #texto-inicial p{
-    font-size: 3.8rem;
+    font-size: 3rem;
     width: 80%;
 }
 
 #img-inicial img{
     z-index: 0;
-    width: 120%;
+    width: 100%;
 }
 
 /*titulos*/
@@ -443,6 +460,17 @@ footer > .footer > *{
     header nav{
         display: none;
     }
+
+
+    #divisao{
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        max-width: 1950px;
+        min-height: 2px;
+        background-color: #FF1654;
+    }
+
 /*menu-burg*/
     .one, .two, .three{
         background-color: #FF1654;
