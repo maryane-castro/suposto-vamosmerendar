@@ -40,7 +40,7 @@ header a{
     margin: 10px;
     cursor: pointer;
     font-size: 2rem;
-    transition: .5s;
+    transition: .3s;
 }
 
 
@@ -60,7 +60,7 @@ header a::after{
 }
 
 
-header a:hover::after{
+header a:hover::after, a:hover{
     transform-origin: left; /*(TERMINA)*/
     transform: scaleX(1);  /*aparece quando passa por cima*/
 
@@ -208,6 +208,9 @@ header a:hover::after{
     font-size: 3rem;
 }
 
+
+/*FAZER O CARD SLIME*/
+
 #plano{
     display: flex;
     align-items: center;
@@ -245,6 +248,8 @@ header a:hover::after{
 .planos li{
     font-size: 2.3rem;
 }
+
+/*FINAL CARD SLIME*/
 
 footer p{
     
