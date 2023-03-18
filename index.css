@@ -467,12 +467,16 @@ footer > .footer > *{
     footer > .footer{
         background-color: #FF1654;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         padding: 10px;
         border-radius: 20px 20px 0 0;
         color: white;
         
+    }
+
+    footer > p{
+        font-size: 1em;
     }
 
     footer > .footer > *{
