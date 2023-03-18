@@ -18,7 +18,8 @@ header{
 }
 
 header h1{
-    color: #000000;
+    font-size: 2.5em;
+    color: #FF1654;
 }
 
 
@@ -32,6 +33,7 @@ header a{
     color: #000000;
     margin: 10px;
     cursor: pointer;
+    font-size: 1.33em;
 }
 
 header a:hover{
@@ -72,6 +74,7 @@ header a:hover{
 }
 
 #texto-inicial p{
+    font-size: 1.5em;
     width: 80%;
 }
 
@@ -82,8 +85,10 @@ header a:hover{
 
 /*titulos*/
 .titulos{
+    color: #FF1654;
     margin: 15% 0 5% 0;
     text-align: center;
+    font-size: 2.8em;
 }
 
 
@@ -110,12 +115,14 @@ header a:hover{
 
 .cards > h2{
     color: #FF1654;
+    font-size: 1.6em;
+}
+
+.cards > p{
+    font-size: 1.3em;
 }
 
 
-#titulo-ideia{
-
-}
 
 #ideia{
     width: 100%;
@@ -125,6 +132,7 @@ header a:hover{
 }
 
 #ideia > p{
+    font-size: 1.5em;
     width: 30%;
 }
 
@@ -160,21 +168,57 @@ header a:hover{
 
 .planos{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 26%;
-    height: 30vh;
-    background-image: url(img/blur.png);
-    filter: blur(40%);
-    border: 1px solid black;
+    height: 40vh;
+
     margin-left: 15px;
     border-radius: 10px;
     padding: 20px;
     overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
 }
 
 
 .planos:first-child{
     margin-left: 0;
+}
+
+
+
+.planos > h2{
+    color: #FF1654;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.planos > p{
+    font-size: 1.3em;
+}
+
+footer p{
+    
+    text-align: center;
+    background-color: #FF1654;
+    color: white;
+}
+
+footer > .footer{
+    background-color: #FF1654;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    color: white;
+    
+}
+
+footer > .footer > *{
+    width: 30%;
+    text-align: justify;
+    font-size: 1.2em;
 }
 
 
