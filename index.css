@@ -71,6 +71,7 @@ header a:hover{
 }
 
 #texto-inicial p{
+    width: 80%;
 }
 
 #img-inicial img{
@@ -78,22 +79,70 @@ header a:hover{
     width: 100%;
 }
 
+/*titulos*/
+.titulos{
+    margin: 15% 0 5% 0;
+    text-align: center;
+}
 
 
 #card{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
+
 
 .cards{
     width: 20%;
-    background-color: #505050;
+    background-color: #F3F3F3;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 }
 
 .cards > *{
+    text-align: center;
+}
+
+.cards > h2{
+    color: #FF1654;
+}
+
+
+#titulo-ideia{
+
+}
+
+#ideia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#ideia > p{
+    width: 30%;
+}
+
+
+#card-diferenciais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-diferenciais{
+    width: 20%;
+    background-color: #505050;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cards-diferenciais > *{
     text-align: center;
 }
