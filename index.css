@@ -550,11 +550,10 @@ footer > .footer > *{
         margin-right: 25px;
     }
 
-    .menu-section.on .menu-toggle > *{
-        background-color: white;
-    }
+    
 
     .menu-section.on .menu-toggle .one{
+        background-color: white;
         transform: rotate(45deg) translate(7px, 7px);
     }
     .menu-section.on .menu-toggle .two{
@@ -562,6 +561,7 @@ footer > .footer > *{
     }
 
     .menu-section.on .menu-toggle .three{
+        background-color: white;
         transform: rotate(-45deg) translate(8px, -9px);
     }
 
