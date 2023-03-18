@@ -240,6 +240,14 @@ footer > .footer > *{
     html{
         font-size: 50%;
     }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
 
     #tela-inicial{
         display: flex;
@@ -414,14 +422,79 @@ footer > .footer > *{
         font-size: 50%;
     }
 
-    header > nav{
+    header nav{
         display: none;
     }
-
-    header > #menu{
-
+/*menu-burg*/
+    .one, .two, .three{
+        background-color: #ff7474;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.5s;
     }
-    
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 10px;
+    }
+
+    /*tela toda*/
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+        z-index: 10;
+        background-color: #777777;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-section.on nav{
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        right: 0;
+        top: 25px;
+        margin-right: 20px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav li{
+        text-align: center;
+        display: block;
+    }
+
+    .menu-section.on nav li a{
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 4rem;
+        display: block;
+    }
+
+
+
+
+
+
+
     #tela-inicial{
         display: flex;
         flex-direction: column;
@@ -479,7 +552,7 @@ footer > .footer > *{
         height: 15vh;
         background-color: #F3F3F3;
         padding: 15px;
-        margin-bottom: 4px;
+        margin-bottom: 0;
         border-radius: 10px;
         box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
     }
