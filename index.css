@@ -34,11 +34,13 @@ header a{
     margin: 10px;
     cursor: pointer;
     font-size: 1.33em;
+    transition: .5s;
 }
 
 header a:hover{
     text-decoration: none;
-    color: #505050;
+    color: #FF1654;
+    text-decoration: underline;
     margin: 10px;
     cursor: pointer;
 }
