@@ -383,6 +383,7 @@ footer > .footer > *{
 
 
     #plano{
+        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -395,6 +396,7 @@ footer > .footer > *{
         display: flex;
         width: 55%;
         height: 34vh;
+        
         border-radius: 10px;
         margin: 20px 0 0 0;
         padding: 20px;
@@ -414,6 +416,7 @@ footer > .footer > *{
 
         
     #plano{
+        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -473,11 +476,7 @@ footer > .footer > *{
         background-color: #FF1654;
     }
 
-    .titulos{
-        color: #FF1654;
-        margin-top: 3%;
-        margin: 30% 0 0 0 ;
-    }
+    
 
     
     
@@ -607,7 +606,6 @@ footer > .footer > *{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 5vh;
         
     }
     
@@ -641,59 +639,6 @@ footer > .footer > *{
     #ideia > img{
         width: 40%;
     }
-
-    #card-dif-1{
-        margin-top: 5vh;
-    }
-
-
-    .cards-diferenciais{
-        width: 40%;
-        height: 100%;
-        background-color: #D9D9D9;
-        margin-bottom: 2%;
-        border-radius: 10px;
-        padding: 20px;
-    }
-
-
-    #plano{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .planos{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 55%;
-        max-width: 350px;
-        height: 33vh;
-        border-radius: 10px;
-        padding: 20px;
-        overflow: hidden;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
-        border: 0;
-    }
-
-
-    .planos:first-child{
-        margin-left: 0;
-    }
-
-
-
-    .planos > h2{
-        color: #FF1654;
-        margin-bottom: 20px;
-        font-size: 3.5rem;
-    }
-
-    .planos li{
-        font-size: 2.3rem;
-    }
-    
     
     footer > .footer{
         background-color: #FF1654;
