@@ -40,7 +40,7 @@ header a{
     margin: 10px;
     cursor: pointer;
     font-size: 2rem;
-    transition: .5s;
+    transition: .3s;
 }
 
 
@@ -60,7 +60,7 @@ header a::after{
 }
 
 
-header a:hover::after{
+header a:hover::after, a:hover{
     transform-origin: left; /*(TERMINA)*/
     transform: scaleX(1);  /*aparece quando passa por cima*/
 
@@ -208,6 +208,9 @@ header a:hover::after{
     font-size: 3rem;
 }
 
+
+/*FAZER O CARD SLIME*/
+
 #plano{
     display: flex;
     align-items: center;
@@ -219,16 +222,24 @@ header a:hover::after{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 26%;
+    width: 30%;
     height: 40vh;
-
     margin-left: 15px;
-    border-radius: 10px;
+    border-radius: 49% 51% 44% 56% / 31% 35% 65% 69% ;
     padding: 20px;
     overflow: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+    box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
+        5px 25px 25px rgba(0, 0, 0, 0.233),
+        5px 20px 20px rgba(0, 0, 0, 0.151),
+        inset -20px -20px 25px rgba(255, 255, 255, .9);
+
+    transition: 0.5s ease-in-out;
 }
 
+
+.planos:hover{
+    border-radius: 50%;
+}
 
 .planos:first-child{
     margin-left: 0;
@@ -245,6 +256,8 @@ header a:hover::after{
 .planos li{
     font-size: 2.3rem;
 }
+
+/*FINAL CARD SLIME*/
 
 footer p{
     
@@ -271,7 +284,7 @@ footer > .footer > *{
 }
 
 
-@media (max-width: 980px) {
+@media (max-width: 1390px) {
 
     html{
         font-size: 50%;
@@ -394,13 +407,19 @@ footer > .footer > *{
     .planos{
         border: 0;
         display: flex;
-        width: 55%;
-        height: 34vh;
+        width: 40%;
+        height: 40vh;
         
-        border-radius: 10px;
+        border-radius: 49% 51% 44% 56% / 31% 35% 65% 69% ;
         margin: 20px 0 0 0;
         padding: 20px;
         overflow: hidden;
+        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
+        5px 25px 25px rgba(0, 0, 0, 0.233),
+        5px 20px 20px rgba(0, 0, 0, 0.151),
+        inset -20px -20px 25px rgba(255, 255, 255, .9);
+
+        transition: 0.5s ease-in-out;
     }
 }
 
@@ -427,13 +446,18 @@ footer > .footer > *{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 55%;
+        width: 75%;
         max-width: 350px;
         height: 33vh;
-        border-radius: 10px;
+        border-radius: 49% 51% 44% 56% / 30% 35% 65% 70% ;
         padding: 20px;
         overflow: hidden;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.452);
+        box-shadow:inset 20px 20px 20px rgba(0, 0, 0, 0.253),
+        5px 25px 25px rgba(0, 0, 0, 0.233),
+        5px 20px 20px rgba(0, 0, 0, 0.151),
+        inset -20px -20px 25px rgba(255, 255, 255, .9);
+
+        transition: 0.5s ease-in-out;
     }
 
 
@@ -446,7 +470,7 @@ footer > .footer > *{
     .planos > h2{
         color: #FF1654;
         margin-bottom: 20px;
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .planos li{
@@ -457,7 +481,7 @@ footer > .footer > *{
 
 
 /*phone*/
-@media (max-width: 550px){
+@media (max-width: 560px){
     html{
         font-size: 50%;
     }
