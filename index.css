@@ -436,7 +436,7 @@ footer > .footer > *{
     .menu-toggle{
         width: 40px;
         height: 30px;
-        margin-right: 10px;
+        
     }
 
     /*tela toda*/
@@ -462,8 +462,8 @@ footer > .footer > *{
     .menu-section.on .menu-toggle{
         position: absolute;
         right: 0;
-        top: 25px;
-        margin-right: 20px;
+        top: 20px;
+        margin-right: 22px;
     }
 
     .menu-section.on .menu-toggle .one{
