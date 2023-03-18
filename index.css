@@ -427,7 +427,7 @@ footer > .footer > *{
     }
 /*menu-burg*/
     .one, .two, .three{
-        background-color: #ff7474;
+        background-color: #FF1654;
         height: 5px;
         width: 100%;
         margin: 6px auto;
@@ -449,7 +449,8 @@ footer > .footer > *{
         width: 100vw;
         height: 100vh;
         z-index: 10;
-        background-color: #777777;
+        background-color: #ff5985;
+        opacity: 95%;
 
         display: flex;
         justify-content: center;
@@ -480,14 +481,19 @@ footer > .footer > *{
     .menu-section.on nav li{
         text-align: center;
         display: block;
+        
     }
 
     .menu-section.on nav li a{
+        text-decoration: underline;
         transition-duration: 0.5s;
         font-size: 3rem;
         line-height: 4rem;
         display: block;
+        color: #fff;
+        font-weight: 600;
     }
+
 
 
 
