@@ -261,8 +261,16 @@ header a:hover::after, a:hover{
     font-size: 2.3rem;
 }
 
+#sobre{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18vh;
+}
+
 #sobre > p{
-    font-size: 3rem;
+    text-align: center;
+    width: 50%;
+    font-size: 2.7rem;
 }
 
 /*FINAL CARD SLIME*/
@@ -277,7 +285,7 @@ footer p{
 footer > .footer{
     background-color: #FF1654;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
     border-radius: 20px 20px 0 0;
@@ -679,7 +687,7 @@ footer > .footer > *{
     footer > .footer{
         background-color: #FF1654;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
         padding: 10px;
         border-radius: 20px 20px 0 0;
@@ -697,7 +705,5 @@ footer > .footer > *{
         font-size: 1rem;
         margin: 3px;
     }
-
-
 
 }
