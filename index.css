@@ -709,7 +709,7 @@ footer > .footer > *{
     #back-ideias{
         width: 100%;
         height: auto;
-        background-image: url(img/back-ideia1.png);
+        background-image: url(img/back-cell.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
