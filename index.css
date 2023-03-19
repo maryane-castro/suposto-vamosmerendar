@@ -136,6 +136,7 @@ header a:hover::after, a:hover{
 
 .cards{
     width: 20%;
+    height: 20vh;
     background-color: #F3F3F3;
     padding: 15px;
     margin-bottom: 10px;
@@ -437,6 +438,19 @@ footer > .footer > *{
 
         transition: 0.5s ease-in-out;
     }
+
+
+    #sobre{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 18vh;
+    }
+    
+    #sobre > p{
+        text-align: center;
+        width: 50%;
+        font-size: 2.7rem;
+    }
 }
 
 @media (max-width: 760px){
@@ -491,6 +505,18 @@ footer > .footer > *{
 
     .planos li{
         font-size: 2.3rem;
+    }
+
+    #sobre{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 18vh;
+    }
+    
+    #sobre > p{
+        text-align: center;
+        width: 50%;
+        font-size: 2.7rem;
     }
 }
 
@@ -648,20 +674,22 @@ footer > .footer > *{
 
     #card{
         display: flex;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         
     }
     
     
     .cards{
-        width: 30%;
+        width: 40%;
         height: 15vh;
         background-color: #F3F3F3;
         padding: 15px;
         margin-bottom: 0;
         border-radius: 10px;
         box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+        margin-top: 15px;
     }
     
     .cards > *{
@@ -683,11 +711,24 @@ footer > .footer > *{
     #ideia > img{
         width: 40%;
     }
+
+
+    #sobre{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 18vh;
+    }
+    
+    #sobre > p{
+        text-align: center;
+        width: 74%;
+        font-size: 2.3rem;
+    }
     
     footer > .footer{
         background-color: #FF1654;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         padding: 10px;
         border-radius: 20px 20px 0 0;
@@ -696,13 +737,13 @@ footer > .footer > *{
     }
 
     footer > p{
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     footer > .footer > *{
         width: 49%;
         text-align: justify;
-        font-size: 1rem;
+        font-size: 1.6rem;
         margin: 3px;
     }
 
