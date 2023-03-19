@@ -261,6 +261,10 @@ header a:hover::after, a:hover{
     font-size: 2.3rem;
 }
 
+#sobre > p{
+    font-size: 3rem;
+}
+
 /*FINAL CARD SLIME*/
 
 footer p{
